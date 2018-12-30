@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "prestart": "(cd serve && http2-push-manifest -f index.html)",
+    "prestart": "(cd www && http2-push-manifest -f index.html)",
     "lint": "standard --fix"
   },
   "dependencies": {
